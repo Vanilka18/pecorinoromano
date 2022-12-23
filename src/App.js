@@ -2,12 +2,14 @@
 import './App.css';
 
 function App() {
+  const jula = "Jula Dobrzyńska-Kobylec"
   const viola = "Violetta Wolniewicz"
   return (
     <div className="App">
-      <div>Ola Barańska</div>
-  <div>Jula Dobrzyńska-Kobylec</div>
+      <div>{ola}</div>
+  <div>{jula}</div>
   <div>{viola}</div>
+  <div>Violetta Wolniewicz</div>
     </div>
   );
 }
