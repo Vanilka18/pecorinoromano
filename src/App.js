@@ -1,10 +1,11 @@
 
 import './App.css';
+const ola = "ola barańska"
 
 function App() {
   return (
     <div className="App">
-      <div>Ola Barańska</div>
+      <div>{ola}</div>
   <div>Jula Dobrzyńska-Kobylec</div>
     </div>
   );
