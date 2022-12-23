@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <div>{ola}</div>
   <div>Jula Dobrzyńska-Kobylec</div>
+  <div>Violetta Wolniewicz</div>
     </div>
   );
 }
