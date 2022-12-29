@@ -9,7 +9,7 @@ function App() {
       <div>{ola}</div>
   <div>{jula}</div>
   <div>{viola}</div>
-  <div>Violetta Wolniewicz</div>
+  
     </div>
   );
 }
