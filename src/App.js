@@ -8,10 +8,16 @@ function App() {
     <div className="App">
       <div>{ola}</div>
       <div>{jula}</div>
-      <div>{viola}</div>
+      {updateNameviola("viola")}
       <div>{bartek}</div>
     </div>
   );
 }
 
-export default App;
+export default App
+
+const updateNameviola = (name) => {
+  return name + "1"
+}
+
+
