@@ -7,25 +7,29 @@ function App() {
   const bartek = "Bartosz Frankowski";
   return (
     <div className="App">
-      <div>{ola}</div>
-      {updateNamejula("jula")}
-      {updateNameviola("viola")}
-      {updateNamebartek("bartek")}
+      {updateNameOla("ola")}
+      {updateNameJula("jula")}
+      {updateNameViola("viola")}
+      {updateNameBartek("bartek")}
     </div>
   );
 }
 
 export default App;
 
-const updateNameviola = (name) => {
+const updateNameViola = (name) => {
   return name + "1";
 };
 
-const updateNamebartek = (name) => {
+const updateNameBartek = (name) => {
   return name + " 1";
 };
 
-const updateNamejula = (name) => {
+const updateNameJula = (name) => {
   return name + " 1";
 };
+
+const updateNameOla = (name) => {
+  return name + "1"
+}
 
