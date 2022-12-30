@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div>{ola}</div>
-      <div>{jula}</div>
+      {updateNamejula("jula")}
       {updateNameviola("viola")}
       {updateNamebartek("bartek")}
     </div>
@@ -24,3 +24,8 @@ const updateNameviola = (name) => {
 const updateNamebartek = (name) => {
   return name + " 1";
 };
+
+const updateNamejula = (name) => {
+  return name + " 1";
+};
+
