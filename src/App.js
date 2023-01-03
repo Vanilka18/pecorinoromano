@@ -30,6 +30,7 @@ const updateNameJula = (name) => {
 };
 
 const updateNameOla = (name) => {
+  const repeat = name.repeat(3)
   return name + "1 "
 }
 
