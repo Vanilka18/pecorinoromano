@@ -30,6 +30,6 @@ const updateNameJula = (name) => {
 };
 
 const updateNameOla = (name) => {
-  return name + "1"
+  return name + "1 "
 }
 
