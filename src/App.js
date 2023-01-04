@@ -26,7 +26,7 @@ const updateNameBartek = (name) => {
 };
 
 const updateNameJula = (name) => {
-  return name + " 1";
+  return name.replace(/jula/g, "julka");
 };
 
 const updateNameOla = (name) => {
