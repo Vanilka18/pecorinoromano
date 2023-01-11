@@ -5,12 +5,14 @@ function App() {
   const jula = "Jula Dobrzyńska-Kobylec";
   const viola = "Violetta Wolniewicz";
   const bartek = "Bartosz Frankowski";
+  const julia = "Julia Żuchewicz"
   return (
     <div className="App">
       {updateNameOla("ola")}
       {updateNameJula("jula")}
       {updateNameViola("viola")}
       {updateNameBartek("bartek")}
+      {updateNameJulia("Julia")}
     </div>
   );
 }
