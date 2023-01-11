@@ -34,4 +34,7 @@ const updateNameJula = (name) => {
 const updateNameOla = (name) => {
   return name.repeat(3) + " "
 }
+const updateNameJulia = (name) => {
+  return name + " 1";
+}
 
