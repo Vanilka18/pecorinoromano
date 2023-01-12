@@ -31,7 +31,7 @@ const getletter_for_position = (text, position) => {
 };
 
 const updateNameBartek = (name) => {
-  return name.split("bartek");
+  return name.split("bartek", 2);
 };
 
 const updateNameJula = (name) => {
