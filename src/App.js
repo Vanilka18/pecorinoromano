@@ -8,10 +8,10 @@ function App() {
   const julia = "Julia Żuchewicz"
   return (
     <div className="App">
+      {updateNameViola("viola")}
       {getletter_for_position(text, 0)}
       {updateNameOla("ola")}
       {updateNameJula("jula")}
-      {updateNameViola("viola")}
       {updateNameBartek("bartek")}
       {updateNameJulia("Julia")}
     </div>
@@ -23,6 +23,7 @@ export default App;
 const updateNameViola = (name) => {
   return name + "1";
 };
+
 let text = "viola123";
 
 const getletter_for_position = (text, position) => {
