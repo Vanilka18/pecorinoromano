@@ -5,7 +5,7 @@ function App() {
   const jula = "Jula Dobrzyńska-Kobylec";
   const viola = "Violetta Wolniewicz";
   const bartek = "Bartosz Frankowski";
-  const julia = "Julia Żuchewicz"
+  const julia = "Julia Żuchewicz";
   return (
     <div className="App">
       {updateNameViola("viola")}
@@ -31,7 +31,7 @@ const getletter_for_position = (text, position) => {
 };
 
 const updateNameBartek = (name) => {
-  return name + " 1";
+  return name.split("bartek");
 };
 
 const updateNameJula = (name) => {
@@ -39,9 +39,8 @@ const updateNameJula = (name) => {
 };
 
 const updateNameOla = (name) => {
-  return name.repeat(3) + " "
-}
+  return name.repeat(3) + " ";
+};
 const updateNameJulia = (name) => {
   return name + " 1";
-}
-
+};
