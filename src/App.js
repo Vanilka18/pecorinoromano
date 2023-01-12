@@ -21,7 +21,7 @@ function App() {
 
 export default App;
 
-let text1 = "julek jest kotem"
+let text1 = "bartek jest kotem";
 const slicefunction = (text1) => {
   return text1.slice(0, 5);
 };
@@ -37,7 +37,7 @@ const getletter_for_position = (text, position) => {
 };
 
 const updateNameBartek = (name) => {
-  return name.split("bartek jest fajny", 2);
+  return name + "1";
 };
 
 const updateNameJula = (name) => {
