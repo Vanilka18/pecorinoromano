@@ -14,11 +14,17 @@ function App() {
       {updateNameJula("jula")}
       {updateNameBartek("bartek")}
       {updateNameJulia("Julia")}
+      {slicefunction(text1)}
     </div>
   );
 }
 
 export default App;
+
+let text1 = "julek jest kotem"
+const slicefunction = (text1) => {
+  return text1.slice(0, 5);
+};
 
 const updateNameViola = (name) => {
   return name + "1";
@@ -31,7 +37,7 @@ const getletter_for_position = (text, position) => {
 };
 
 const updateNameBartek = (name) => {
-  return name.split("bartek", 2);
+  return name.split("bartek jest fajny", 2);
 };
 
 const updateNameJula = (name) => {
