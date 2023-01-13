@@ -10,7 +10,7 @@ const users = ["Ola Barańska", "Jula Dobrzyńska-Kobylec", "Violetta Wolniewicz
       {updateNameOla(users [0])}
       {updateNameJula("jula")}
       {updateNameBartek("bartek")}
-      {updateNameJulia("Julia")}
+      {updateNameJulia(users [1])}
       {slicefunction(text1)}
     </div>
   );
