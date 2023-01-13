@@ -9,15 +9,10 @@ function App() {
     "Julia Żuchewicz",
   ];
 
+
   return (
     <div className="App">
-      {updateNameViola(users[2])}
-      {getletter_for_position(text, 0)}
-      {updateNameOla(users[0])}
-      {updateNameJula(users [1])}
-      {updateNameBartek(users[4])}
-      {updateNameJulia("Julia")}
-      {slicefunction(text1)}
+      {users.map(user => <div>{updateNameViola(user)}</div>)}      
     </div>
   );
 }
@@ -30,7 +25,7 @@ const slicefunction = (text1) => {
 };
 
 const updateNameViola = (name) => {
-  return name + "1";
+  return getletter_for_position(name , 0);
 };
 
 let text = "viola123";
@@ -53,3 +48,11 @@ const updateNameOla = (name) => {
 const updateNameJulia = (name) => {
   return name + " 1";
 };
+
+{/* {updateNameViola(users[2])}
+{getletter_for_position(text, 0)}
+{updateNameOla(users[0])}
+{updateNameJula(users [1])}
+{updateNameBartek(users[4])}
+{updateNameJulia("Julia")}
+{slicefunction(text1)} */}
