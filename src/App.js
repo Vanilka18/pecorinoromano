@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      {updateNameViola("viola")}
+      {updateNameViola(users[2])}
       {getletter_for_position(text, 0)}
       {updateNameOla(users[0])}
       {updateNameJula(users [1])}
