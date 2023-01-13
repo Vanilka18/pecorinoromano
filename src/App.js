@@ -1,16 +1,22 @@
 import "./App.css";
 
 function App() {
-const users = ["Ola Barańska", "Jula Dobrzyńska-Kobylec", "Violetta Wolniewicz", "Bartosz Frankowski", "Julia Żuchewicz" ]
+  const users = [
+    "Ola Barańska",
+    "Jula Dobrzyńska-Kobylec",
+    "Violetta Wolniewicz",
+    "Bartosz Frankowski",
+    "Julia Żuchewicz",
+  ];
 
   return (
     <div className="App">
       {updateNameViola("viola")}
       {getletter_for_position(text, 0)}
-      {updateNameOla(users [0])}
+      {updateNameOla(users[0])}
       {updateNameJula("jula")}
-      {updateNameBartek("bartek")}
-      {updateNameJulia(users [1])}
+      {updateNameBartek(users[4])}
+      {updateNameJulia(users[1])}
       {slicefunction(text1)}
     </div>
   );
