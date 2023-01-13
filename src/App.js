@@ -12,7 +12,8 @@ function App() {
 
   return (
     <div className="App">
-      {users.map(user => <div>{updateNameViola(user)}</div>)}      
+      {users.map(user => <div>{updateNameViola(user)}</div>)}    
+      {users.map(user => <div>{updateNameJula(user)}</div>)}    
     </div>
   );
 }
