@@ -14,9 +14,9 @@ function App() {
       {updateNameViola("viola")}
       {getletter_for_position(text, 0)}
       {updateNameOla(users[0])}
-      {updateNameJula("jula")}
+      {updateNameJula(users [1])}
       {updateNameBartek(users[4])}
-      {updateNameJulia(users[1])}
+      {updateNameJulia("Julia")}
       {slicefunction(text1)}
     </div>
   );
