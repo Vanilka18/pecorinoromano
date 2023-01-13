@@ -1,16 +1,13 @@
 import "./App.css";
 
 function App() {
-  const ola = "Ola baranska1";
-  const jula = "Jula Dobrzyńska-Kobylec";
-  const viola = "Violetta Wolniewicz";
-  const bartek = "Bartosz Frankowski";
-  const julia = "Julia Żuchewicz";
+const users = ["Ola Barańska", "Jula Dobrzyńska-Kobylec", "Violetta Wolniewicz", "Bartosz Frankowski", "Julia Żuchewicz" ]
+
   return (
     <div className="App">
       {updateNameViola("viola")}
       {getletter_for_position(text, 0)}
-      {updateNameOla("ola")}
+      {updateNameOla(users [0])}
       {updateNameJula("jula")}
       {updateNameBartek("bartek")}
       {updateNameJulia("Julia")}
