@@ -1,4 +1,5 @@
-export const Name = (name) => {
-    return <div>{name.repeat(3) + " "}</div>;
+export const Name = (props) => {
+  console.log (props.name)
+    return <div>{props.name.repeat(3) + " "}</div>;
   };
   

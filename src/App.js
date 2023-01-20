@@ -13,9 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <Name/>
-      {users.map(user => <div>{updateNameViola(user)}</div>)}    
-      {users.map(user => <div>{updateNameJula(user)}</div>)}    
+      {users.map(user =>  <Name name={user}/> )}    
     </div>
   );
 }
