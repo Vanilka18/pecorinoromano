@@ -1,4 +1,5 @@
 import "./App.css";
+import {Name} from "./components/Name"
 
 function App() {
   const users = [
@@ -12,9 +13,9 @@ function App() {
 
   return (
     <div className="App">
+      <Name/>
       {users.map(user => <div>{updateNameViola(user)}</div>)}    
       {users.map(user => <div>{updateNameJula(user)}</div>)}    
-      {users.map(user => <div>{updateNameOla(user)}</div>)}
     </div>
   );
 }
@@ -44,9 +45,6 @@ const updateNameJula = (name) => {
   return name.replace(/jula/g, "julka");
 };
 
-const updateNameOla = (name) => {
-  return name.repeat(3) + " ";
-};
 const updateNameJulia = (name) => {
   return name + " 1";
 };
