@@ -32,7 +32,7 @@ const getletter_for_position = (text, position) => {
 };
 
 const updateNameBartek = (name) => {
-  return name.slice(o, 5);
+  return name.slice(0, 5);
 };
 
 const updateNameJula = (name) => {
