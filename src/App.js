@@ -1,5 +1,5 @@
 import "./App.css";
-import {Name} from "./components/Name"
+import { Name } from "./components/Name";
 
 function App() {
   const users = [
@@ -10,10 +10,11 @@ function App() {
     "Julia Żuchewicz",
   ];
 
-
   return (
     <div className="App">
-      {users.map(user =>  <Name name={user}/> )}    
+      {users.map((user) => (
+        <Name name={user} />
+      ))}
     </div>
   );
 }
@@ -26,7 +27,7 @@ const slicefunction = (text1) => {
 };
 
 const updateNameViola = (name) => {
-  return getletter_for_position(name , 0);
+  return getletter_for_position(name, 0);
 };
 
 let text = "viola123";
@@ -36,7 +37,7 @@ const getletter_for_position = (text, position) => {
 };
 
 const updateNameBartek = (name) => {
-  return name + "1";
+  return name.slice(o, 5);
 };
 
 const updateNameJula = (name) => {
@@ -47,10 +48,12 @@ const updateNameJulia = (name) => {
   return name + " 1";
 };
 
-{/* {updateNameViola(users[2])}
+{
+  /* {updateNameViola(users[2])}
 {getletter_for_position(text, 0)}
 {updateNameOla(users[0])}
 {updateNameJula(users [1])}
 {updateNameBartek(users[4])}
 {updateNameJulia("Julia")}
-{slicefunction(text1)} */}
+{slicefunction(text1)} */
+}
