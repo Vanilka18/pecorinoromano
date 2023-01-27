@@ -21,11 +21,6 @@ function App() {
 
 export default App;
 
-let text1 = "bartek jest kotem";
-const slicefunction = (text1) => {
-  return text1.slice(0, 5);
-};
-
 const updateNameViola = (name) => {
   return getletter_for_position(name, 0);
 };
