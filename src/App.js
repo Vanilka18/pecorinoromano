@@ -1,19 +1,12 @@
 import "./App.css";
 import { Name } from "./components/Name";
+import { users } from "./data/users";
 
 function App() {
-  const users = [
-    "Ola Barańska",
-    "Jula Dobrzyńska-Kobylec",
-    "Violetta Wolniewicz",
-    "Bartosz Frankowski",
-    "Julia Żuchewicz",
-  ];
-
   return (
     <div className="App">
       {users.map((user) => (
-        <Name name={user} />
+        <Name name={user.name} />
       ))}
     </div>
   );
