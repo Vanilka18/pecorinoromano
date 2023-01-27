@@ -1,12 +1,15 @@
 import "./App.css";
 import { Name } from "./components/Name";
 import { users } from "./data/users";
+import { Badges } from "./components/Badges";
+
 
 function App() {
   return (
     <div className="App">
-      {users.map((user) => (
-        <Name name={user.name} />
+      {users.map((user) =>(
+        <div><Name name={user.name} />
+        <Badges badges={user.badges} /></div>
       ))}
     </div>
   );
