@@ -2,14 +2,13 @@ import "./App.css";
 import { Name } from "./components/Name";
 import { users } from "./data/users";
 import { Badges } from "./components/Badges";
-
+import { Profile } from "./components/Profile";
 
 function App() {
   return (
     <div className="App">
       {users.map((user) =>(
-        <div><Name name={user.name} />
-        <Badges badges={user.badges} /></div>
+        <Profile user = {user}/>
       ))}
     </div>
   );
