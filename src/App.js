@@ -3,47 +3,26 @@ import { Name } from "./components/Name";
 import { users } from "./data/users";
 import { Badges } from "./components/Badges";
 import { Profile } from "./components/Profile";
+import styled from "styled-components";
 
 function App() {
   return (
-    <div className="App">
-      {users.map((user) =>(
-        <Profile user = {user}/>
+    <StyledWrapper>
+      {users.map((user) => (
+        <Profile user={user} />
       ))}
-    </div>
+    </StyledWrapper>
   );
 }
 
 export default App;
 
-const updateNameViola = (name) => {
-  return getletter_for_position(name, 0);
-};
-
-let text = "viola123";
-
-const getletter_for_position = (text, position) => {
-  return text.charAt(position);
-};
-
-const updateNameBartek = (name) => {
-  return name.slice(0, 5);
-};
-
-const updateNameJula = (name) => {
-  return name.replace(/jula/g, "julka");
-};
-
-const updateNameJulia = (name) => {
-  return name + " 1";
-};
-
-{
-  /* {updateNameViola(users[2])}
-{getletter_for_position(text, 0)}
-{updateNameOla(users[0])}
-{updateNameJula(users [1])}
-{updateNameBartek(users[4])}
-{updateNameJulia("Julia")}
-{slicefunction(text1)} */
-}
+const StyledWrapper = styled("div")(() => ({
+  border: "1px solid black",
+  width: "300px",
+  padding: "10px",
+  margin: "10px",
+  display: "flex",
+  flexDirection: "column",
+  gap: "10px",
+}));
